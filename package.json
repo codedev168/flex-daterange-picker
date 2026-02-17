@@ -1,0 +1,24 @@
+{
+  "name": "@codedev168/flex-daterange-picker",
+  "version": "0.1.0",
+  "description": "1. Classic Dual-Month Calendar + Presets (Most Popular & Versatile)\n\nShow two months side-by-side (current + next) on desktop → one month + scroll on mobile\nQuick presets on the left/top:\nToday / Yesterday\nLast 7 days / Last 30 days\nThis week / This month / This quarter\nLast week / Last month\nCustom range...\nHighlight selected range with gradient fill (start → end)\nSmall \"pill\" chips above or below showing:\n15 Feb 2026 – 28 Feb 2026 (12 days)\nSticky footer with Apply (primary button) + Cancel / Clear\nBonus: “Today” dot/button always visible\n\nBest for: Analytics, reports, e-commerce orders, admin filters\n2. Minimal Input + Smart Dropdown Calendar\n\nSingle field showing:\n12 Jan 2026 – 19 Jan 2026\nor\nJan 12 – Jan 19, 2026 (shorter)\nClick → dropdown opens with calendar + presets\nAllow direct typing in the field (parse smartly: \"last 14d\", \"next month\", \"15-28 feb\")\nAuto-suggest/format while typing (very loved in 2025+ tools)\nSmall chevron or calendar icon on right\n\nBest for: Clean dashboards, mobile-first apps, tight spaces\n3. Two Separate Fields (From – To) + Linked Calendar\n\nTwo input boxes:\nFrom: [15 Feb 2026]\nTo:   [28 Feb 2026 ▼]\nClicking either opens one shared calendar popover\nFirst click selects start → second click selects end\nHover highlights potential range\nVisual connection (line or same color) between the two fields\n\nBest for: Booking flows (check-in / check-out), forms where users often type dates\n4. Timeline / Slider Style (Modern & Visual)\n\nHorizontal bar showing months or weeks\nTwo draggable handles for start & end\nBackground shading for selected period\nSmall labels/tooltips showing exact dates\nOptional: zoom in/out (day → week → month view)\n\nBest for: Gantt-like tools, performance graphs, content scheduling\n5. Floating Pill + Quick Edit (Very 2025–2026 Trend)\n\nInitial state: one rounded pill\nLast 30 days ▼\nClick → shows dropdown menu:\nPredefined ranges\n“Custom” → opens mini calendar or fields\n\nAfter custom selection → pill updates to:\n1 Feb – 28 Feb 2026 (pill stays compact)\n\nBest for: Very clean SaaS dashboards (Notion-style, Linear, Vercel, etc.)\n6. Mobile-Optimized Patterns\n\nFull-screen modal calendar on tap\nBig tappable days\nSwipe to change months\nTop bar shows selected range + “Done” button\nOptional number stepper for quick ±7 days adjustment\nHuge presets as big chips at top",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "flex-daterange-picker",
+    "typescript",
+    "utility"
+  ],
+  "author": "codedev168",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
